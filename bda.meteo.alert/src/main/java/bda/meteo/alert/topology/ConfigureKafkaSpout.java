@@ -33,8 +33,4 @@ public class ConfigureKafkaSpout {
         builder.setSpout(spoutName, kafkaSpout, parallelismHint);
 
     }
-    
-//    private static Scheme getSchemeFromClassName(String spoutSchemeCls) throws Exception {
-//        return (Scheme)Class.forName(spoutSchemeCls).getConstructor().newInstance();
-//    }
 }

@@ -7,12 +7,11 @@ import org.apache.storm.topology.TopologyBuilder;
 import bda.meteo.alert.config.ConfigVars;
 import bda.meteo.alert.config.PropertyParser;
 
-
-public class KafkaHiveTopology {
-
-    public static void main(String[] args) throws Exception {
+public class MeteoTopology {
+	
+	public static void main(String[] args) throws Exception {
     	
-    	String propFilePath = "local.properties";
+    	String propFilePath = "local.meteo.properties";
     	System.out.println("Filepath: " + propFilePath);
 
         // Parse the properties file
